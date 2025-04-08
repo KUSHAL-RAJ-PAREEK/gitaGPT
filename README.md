@@ -17,5 +17,6 @@ GitaGPT is an AI-powered application that allows users to upload **images** and 
 
 ### 1. Clone the Repository
 ```bash
-[git clone https://github.com/KUSHAL-RAJ-PAREEK/gitaGPT.git]
+git clone https://github.com/KUSHAL-RAJ-PAREEK/gitaGPT.git
+
 cd gitagpt
