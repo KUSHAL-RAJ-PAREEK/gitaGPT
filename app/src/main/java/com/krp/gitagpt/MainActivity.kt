@@ -81,17 +81,17 @@ class MainActivity : ComponentActivity() {
         setContent {
             GitaGptTheme {
                 Scaffold(
-                    topBar = {
+                     topBar = {
                         Box(
                             modifier = Modifier
                                 .fillMaxWidth()
                                 .background(MaterialTheme.colorScheme.primary)
-                                .height(55.dp)
-                                .padding(horizontal = 16.dp)
-                                .padding(WindowInsets.statusBars.asPaddingValues())
+                                .height(65.dp)
+                                .padding(WindowInsets.statusBars.asPaddingValues()),
+                            contentAlignment = Alignment.Center
                         ) {
                             Text(
-                                modifier = Modifier.align(Alignment.Center),
+
                                 text = "Gita gpt",
                                 fontSize = 19.sp,
                                 color = MaterialTheme.colorScheme.onPrimary
