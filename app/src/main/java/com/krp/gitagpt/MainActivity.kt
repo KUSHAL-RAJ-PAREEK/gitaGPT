@@ -81,7 +81,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             GitaGptTheme {
                 Scaffold(
-                     topBar = {
+                      topBar = {
                         Box(
                             modifier = Modifier
                                 .fillMaxWidth()
